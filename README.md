@@ -44,7 +44,7 @@ available for purchase, this can be a weekly or bi-weekly activity. An email
 subscription can be incorporated to connect with customers and advertise products
 and discounts.
 
-*Customer service for online and phone support can be added to expand options for
+* Customer service for online and phone support can be added to expand options for
 visitors to ask questions, make purchases and obtain assistance with any issues 
 they may be having interacting on the site.
 
