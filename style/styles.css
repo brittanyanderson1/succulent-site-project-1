@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+} /*This sets the margin and padding on all pages 0*/
+
+
+body {
+    color: rgb(129, 66, 86);
+    font-family: "Tenor Sans";
+    display: flex;
+    flex-direction: column;
+} /*This effects the elements in the body of all documents mainly headings,
+  font-color, font-size and position on the page*/
+
+
+.logo {
+    align-items: center;
+} /*This effects the logo in the header of every page*/
+
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+    margin:10px;
+}/*This effects the navigation menu placement and size of borders*/
+
+
+.header-nav a {
+    font-size: 18px;
+}/*This styles the navigation menu text on all 3 pages*/
+
+
+h1, h2 {
+    text-align: center;
+    font-family: "Tenor Sans", cursive;
+    /* font-style: italic; */
+} /*This styles the headings on all pages main and secondary*/
+
+
+h1 {
+    font-size: 40px;
+} /*This effects the font size for all 3 pages main title headings*/
+
+
+h2 {
+    margin-right: 20px;
+    font-size: 15px;
+} /*This effects the text size and style for the shop items and price labels*/
+
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+} /*This effects the sub headings on the index page for the Dolly, about
+  and contact us sections*/
+
+
+h3 a {
+    text-decoration: none;
+    color: rgb(129, 66, 86);
+} /*This effects the shop title heading on the index page in the shop section*/
+
+
+p {
+    padding: 10px;
+    /* font-weight: bold; */
+    /* text-align: right; */
+    /* text-align: left; */
+    text-align: center;
+    text-align: justify;
+} /*This effects the style and layout of all paragraphs on all pages*/
+
+
+.bg-dark1 {
+        color: rgb(129, 66, 86);
+        background-color: rgb(113, 111, 53);
+        margin: 0;
+        padding: 30px;
+} /*This effects the dark background element on the index page only*/
+
+
+.bg-light {
+        color: rgb(0,0,0);
+        background-image: url(../project1/project-1-images/bouquet-succulents.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 10px;
+} /*This styles all sections with the shield and shows the background image*/
+
+
+.shield {
+    margin: 5px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px; 
+} /*This effect the style and layout of the sheild element on all 3 pages*/
+
+
+.header-nav-menu {
+    margin: 5px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+} /*This styles the border box around the navigation menu*/
+
+
+.header-menu-item {
+    font-size: 10px;
+    margin: 10px 10px 10px 10px;
+} /*This effects the header box with the site logo and page title on all 3 pages*/
+
+
+.header-menu-item a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: black;
+} /*This effects the navigation links size and style on all 3 pages*/
+
+
+.about {
+    text-align: center;
+    color: rgb(30, 30, 30)
+} /*This styles the about section title in the body on the index page*/
+
+
+.profile-image {
+    width: 15%;
+    display: flex;
+    margin: 10px auto;
+    padding: 2%;
+    border-radius: 40% 0 40% 0;
+} /*This styles the image of Dolly in the section labled Dolly on the index page*/
+
+
+.image-shield {
+    margin: 0 40px;
+} /*This effects the shield behind Dolly's image on the index page*/
+
+
+a {
+    text-decoration: none;
+} /*This styles the copyright hyperlink on the bottom of all 3 pages*/
+
+
+.profile-description {
+    text-decoration: none;
+} /*This effects the h3 element in the shop section on the index page*/
+
+
+.shop-description {
+    text-align: center;
+} /*This effects the lorem paragraph text on the index page in the shop section*/
+
+.d-block.w-1 {
+    width: 25%;
+    margin-left: 35%; 
+} /*This effects the size and position of the bootstrap carousal on the index page
+in the shop section*/
+
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display:flex;
+} /*This styles the elements on the index page in the sections Dolly, About and Contact Us*/
+
+
+.contact-image {
+    text-align: center;
+} /*This effects the mail icon on the index page in the contact us section*/
+
+
+.multi-column-container {
+    align-items:center;
+    margin: 15px;
+} /*This styles the rows and columns on the shop page*/
+
+
+.three-column-item {
+    margin-left: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    color: rgb(0,0,0);
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+} /*this is for the 3 column layout on the shop page*/
+
+
+
+fieldset {
+    margin: 4rem;
+    padding: 15px;
+    justify-items: center;
+    align-items: center; /*THIS CHANGES THE SIZE OF SHIELD AND FORM BORDERS NARROW VS WIDE*/
+    display: flex;
+    flex-direction: column; /*This specifically moved the boxes and labels
+    to the center of the form hallelujah!!!!!!*/
+} /*This effects the formspree contact form elements */
+
+
+input, textarea {
+    margin: 5px;
+    padding: 10px;  
+} /*this changes the elements inside the formspree form borders on the contact 
+  page i.e.  the message text area box size of text boxes and position of boxes*/
+
+
+label {
+    /*margin:*/
+    padding: 15px;    
+} /*This effects the label position inside of the submission form on contact page*/
+
+[type=submit] {
+    width: 15%;
+    margin-left: 42%;
+    padding: 9px 5px;
+    background-color: rgb(113, 111, 53);
+    color: rgb(129, 66, 86);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 3px 3px 8px rgba(129, 66, 86, 0.2);
+    cursor: pointer;
+    box-sizing: content-box;
+    font-size: 1.5rem;
+} /*This effects the submit button*/
+
+[type=submit]:hover {
+    background-color: green;
+    box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.7);
+} /*This effects the decoration when the pointer is over the submit button*/
+
+.connect {
+    margin-left: 20px;
+    justify-items:center;
+} /*This styles the index page for the social media icons*/
+
+a footer {
+    background-color: rgb(113, 111,53);
+    color: rgb(129, 66, 86);
+    font-size: 18px;
+    margin: 0;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+} /*This effects the footer layout and design for all 3 pages*/
+
