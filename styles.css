@@ -83,7 +83,7 @@ p {
 
 .bg-light {
         color: rgb(0,0,0);
-        background-image: url(../succulent-site/project-1-images/bouquet-succulents.png);
+        background-image: url(./project-1-images/bouquet-succulents.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
